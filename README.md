@@ -1,6 +1,5 @@
+Hi
 This tutorial demonstrates how to build and deploy an android app to your smartphone. The app was programmed with python and the kivy framework. Buildozer, the android debug bridge and the ubuntu subsystem were used to build, deploy and debug the android app. This tutorial works also perfectly fine for Ubuntu.
-
-If anything is unclear, feel free to ask and write a comment.
 
 
 ▬ Links ► ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -33,38 +32,6 @@ sudo apt-get install zip
 
 ► Build & Deployment
 buildozer android debug deploy run logcat
-adb -s DEVICE_ID logcat *:S python:D
-adb -s DEVICE_ID install name.apk
+ps there is a more complete string of codes you can enter to download the libraries, here they are :
 
-► Connection to phone
-adb devices
-cmd:
-adb tcpip 5555
-wsl2 (ubuntu subsystem):
-adb connect YOUR_IP:5555 
-
-
-▬ Chapters ► ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-► 0:00 - Intro
-► 0:27 - Install Ubuntu Subsystem
-► 2:00 - Install Buildozer
-► 4:44 - Buildozer Configuration (Buildozer.spec)
-► 10:44 - Build .apk with Buildozer
-► 13:50 - Connect Android Phone to PC
-► 18:25 - Deploy .apk to Android Phone
-► 19:27 - Debug App on Android Phone via terminal
-► 21:50 - Outro
-
-▬ Programming ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-► Pycharm Community Edition
-► Python 3.8.1
-► Kivy 2.0
-
-▬ Editing ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-► Sony Vegas Pro Edit 14
-► OBS
-► t.bone SC400
-► Cheap Webcam
+sudo apt-get install build-essential ccache git libncurses5:1386 libstdc++6:1386 libgtk2.0-0:1386 libpangox-1.0-0:1386 libpangoxft-1.0-0:1386 libidn11:1386 python2.7 python2.7-dev zip unzip openjdk-8-jdk python3-pip autoconf libtool pkg-config zlib1g-dev zlib1g:i386 libncurses5-dev libltdl-dev libffi-dev libssl- dev autotools-dev libncursesw5-dev libtinfo5 cmake
