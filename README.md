@@ -34,7 +34,9 @@ sudo apt-get install zip
 buildozer android debug deploy run logcat
 ps there is a more complete string of codes you can enter to download the libraries, here they are :
 
-sudo apt-get install build-essential ccache git libncurses5:1386 libstdc++6:1386 libgtk2.0-0:1386 libpangox-1.0-0:1386 libpangoxft-1.0-0:1386 libidn11:1386 python2.7 python2.7-dev zip unzip openjdk-8-jdk python3-pip autoconf libtool pkg-config zlib1g-dev zlib1g:i386 libncurses5-dev libltdl-dev libffi-dev libssl- dev autotools-dev libncursesw5-dev libtinfo5 cmake
+sudo apt-get install build-essential ccache git libncurses5:i386 libstdc++6:i386 libgtk2.0-0:i386 libpangox-1.0-0:i386 libpangoxft-1.0-0:i386 libidn11:i386 python2.7 python2.7-dev zip unzip openjdk-8-jdk python3-pip autoconf libtool pkg-config zlib1g-dev zlib1g:i386 libncurses5-dev libltdl-dev libffi-dev libssl-dev autotools-dev libncursesw5-dev libtinfo5 cmake
+
+
 for some of you that have problems with linux's terminal.
 just download neckoray and run some configs that you can find on telegram
 for example these ones that work for now:
