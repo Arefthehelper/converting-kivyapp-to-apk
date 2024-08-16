@@ -1,14 +1,6 @@
 Hi
 This tutorial demonstrates how to build and deploy an android app to your smartphone. The app was programmed with python and the kivy framework. Buildozer, the android debug bridge and the ubuntu subsystem were used to build, deploy and debug the android app. This tutorial works also perfectly fine for Ubuntu.
 
-
-▬ Links ► ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-
-Code of this tutorial:
-https://github.com/denczo/kivy_examples
-ADB for Windows:
-https://dl.google.com/android/reposit...
-
 ▬ Commands ► ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 ►  Download project
@@ -38,10 +30,4 @@ sudo apt-get install build-essential ccache git libncurses5:i386 libstdc++6:i386
 
 
 for some of you that have problems with linux's terminal.
-just download neckoray and run some configs that you can find on telegram
-for example these ones that work for now:
-
-
-
-
-vless://join--ZEDMODEON@[2a0d:5940:47:31::]:25365?mode=gun&security=reality&encryption=none&authority=&pbk=sx7hzGgMCtrk8Wnm8PS-RuSjQTL_kfK0kC1n4Ix6UTg&fp=chrome&spx=%2F&type=grpc&serviceName=ZEDMODEON-ZEDMODEON-ZEDMODEON-BIA-ZEDMODEON-ZEDMODEON&sni=eset.com&sid=408c8c78#ipv6+%F0%9F%87%A9%F0%9F%87%AA+%28%40ZEDMODEON%29
+*use some sort of vpn*
