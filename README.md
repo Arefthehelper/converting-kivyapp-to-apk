@@ -3,9 +3,6 @@ This tutorial demonstrates how to build and deploy an android app to your smartp
 
 ▬ Commands ► ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-►  Download project
-git clone https://github.com/denczo/kivy_examples
-
 ► Install buildozer:
 git clone https://github.com/kivy/buildozer.git
 cd buildozer
