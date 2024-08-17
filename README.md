@@ -23,7 +23,10 @@ sudo apt-get install zip
 buildozer android debug deploy run logcat
 ps there is a more complete string of codes you can enter to download the libraries, here they are :
 
-sudo apt-get install build-essential ccache git libncurses5:i386 libstdc++6:i386 libgtk2.0-0:i386 libpangox-1.0-0:i386 libpangoxft-1.0-0:i386 libidn11:i386 python2.7 python2.7-dev zip unzip openjdk-8-jdk python3-pip autoconf libtool pkg-config zlib1g-dev zlib1g:i386 libncurses5-dev libltdl-dev libffi-dev libssl-dev autotools-dev libncursesw5-dev libtinfo5 cmake
+sudo apt install python3-pip python3-setuptools python3-virtualenv git zip unzip
+sudo apt install libzbar0 libjpeg-dev libsqlite3-dev libffi-dev libssl-dev libltdl-dev
+sudo apt install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good
+sudo apt install openjdk-17-jdk
 
 
 for some of you that have problems with linux's terminal.
